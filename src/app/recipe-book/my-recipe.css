@@ -1,0 +1,15 @@
+.master{
+  width: 30%;
+  float: left;
+
+}
+.details{
+  width: 70%;
+  float: right;
+}
+.showdiv{
+  background-color: lightblue;
+  border: 1px lightblue;
+  padding: 3px;
+  margin-bottom: 2px;
+}

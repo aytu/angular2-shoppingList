@@ -1,0 +1,14 @@
+<div *ngIf="recipe==null">
+   <h1>Please choose or create a recipe</h1>
+</div>
+<div *ngIf="recipe!=null">
+   <h1>{{recipe.name}}</h1>
+    <span><a (click)="onEdit()">Edit</a> | <a (click)="onDelete()">Delete</a></span>
+   <div>
+     <img [src]="recipe.imageUrl" style="width:200px;">
+   </div>
+   <div>
+     {{recipe.content}}
+   </div>
+
+</div>
